@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>TODO Advanced</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>TODO App</h1>
+            <hr>
+            <div class="description">
+                <label for="">DESCRIPTION</label><br>
+                <input type="text" placeholder="What do you need to do?">
+            </div>
+            <hr>
+            <form class="categoryNdate">
+                <div class="inline category">
+                    <label>CATEGORY</label><br>
+                    <select name="" id="">
+                        <option value="0">Choose a category</option>
+                        <option value="1">Personal</option>
+                        <option value="2">Work</option>
+                        <option value="3">School</option>
+                        <option value="4">Cleaning</option>
+                        <option value="5">Other</option>
+                    </select>
+                </div>
+                <div class="inline due_date">
+                    <label for="dueDate"> DUE DATE</label><br>
+                        <input type="date">
+                </div>
+            </form>
+            <hr>
+            <div class="buttons">
+                <button class="add_button">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    ADD TASK</button>
+                <button class="delete_button">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    DELETE TASK</button>
+            </div>
+            <hr>
+            <div class="add_task">
+                <div class="checkbox_content"><input type="checkbox" class="checkbox"></div>
+                <div class="task_content">
+                    <p>Annula report submission deadline</p>
+                    <i class="fa fa-calendar-alt" aria-hidden="true" style="font-size:12px; color:grey; padding: 0.2rem; ; display: inline;">
+                        <p class="calender_para">Aug 2, 2023</p></i>
+                </div>
+                <div class="category_selected">WORK</div>
+                
+            </div>
+            <hr>
+        </div>
+        
+    </main>
+</body>
+</html>
